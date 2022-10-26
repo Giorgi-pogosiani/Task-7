@@ -1,0 +1,27 @@
+.animation {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: animation;
+}
+.animation:hover {
+  animation-name: animation;
+  background-color: blue;
+  background-color: black;
+  animation-duration: 2s;
+  width: 200px;
+  height: 200px;
+}
+@keyframes animation {
+  from {
+    width: 200px;
+    background-color: blue;
+  }
+  to {
+    height: 200px;
+    background-color: green;
+  }
+}
